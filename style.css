@@ -220,17 +220,6 @@ body {
     padding: 10px 15px;
     }
     
-    .menu-toggle {
-    display: none;
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-    }
     
     @media (max-width: 768px) {
     .sidebar-nav {
@@ -327,6 +316,16 @@ font-size: 18px;
 
 .menu-toggle {
 display: block;
+position: fixed;
+top: 15px;
+left: 700px;
+right: 5px;
+background-color: white;
+border: none;
+color: #fff;
+font-size: 20px;
+cursor: pointer;
+z-index: 9999;
 }
 button {
     padding: 10px 20px;
